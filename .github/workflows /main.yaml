@@ -1,11 +1,8 @@
 name: ScrapeJobs
 
 on:
-  push:
-    cron:
-      - '* * * * *'
-    branches:
-      - main
+  schedule:
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
