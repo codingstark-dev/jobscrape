@@ -20,6 +20,6 @@ jobs:
         run: |
           git config --global user.email "mhimanshu.338@gmail.com"
           git config --global user.name "Himanshu"
-          git add data/jobs.json
+          git add .
           git commit -m "Update jobs data" || echo "No changes to commit"
           git push

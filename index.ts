@@ -2,8 +2,9 @@ import * as cheerio from "cheerio";
 import { mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 const response = await fetch(
-  "https://www.foundit.in/search/sql-jobs?searchId=8b34f9fd-3deb-4910-be49-3febf4e67861"
+  "https://www.foundit.in/search/digital-marketing-jobs?searchId=96fea8cd-eb2e-4633-b42a-c5a8d4d9b61b"
 );
+// "https://www.foundit.in/search/sql-jobs?searchId=8b34f9fd-3deb-4910-be49-3febf4e67861"
 // "https://www.foundit.in/search/work-from-home-jobs?searchId=3f5e9fcd-2807-4d6a-8835-4c2b89b466fa"
 
 const file = Bun.file("./data/jobs.json");
